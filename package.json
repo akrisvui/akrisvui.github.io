@@ -2,7 +2,7 @@
   "name": "vk-apps-redactor",
   "version": "1.0.0",
   "description": "",
-  "homepage": "http://akrisvui.github.io/akrisvui.github.io/",
+  "homepage": "https://akrisvui.github.io/",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=1088 HTTPS=true react-scripts start",
