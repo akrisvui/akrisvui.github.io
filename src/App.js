@@ -3,7 +3,6 @@ import bridge from '@vkontakte/vk-bridge';
 import View from '@vkontakte/vkui/dist/components/View/View';
 import ScreenSpinner from '@vkontakte/vkui/dist/components/ScreenSpinner/ScreenSpinner';
 import '@vkontakte/vkui/dist/vkui.css';
-import 'mysql2';
 
 import Home from './panels/Home';
 import Persik from './panels/Persik';
@@ -12,7 +11,6 @@ const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
-	const mysql = require("mysql2");
 
 	useEffect(() => {
 		bridge.subscribe(({ detail: { type, data }}) => {
