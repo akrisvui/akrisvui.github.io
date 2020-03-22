@@ -3,6 +3,7 @@ import bridge from '@vkontakte/vk-bridge';
 import View from '@vkontakte/vkui/dist/components/View/View';
 import ScreenSpinner from '@vkontakte/vkui/dist/components/ScreenSpinner/ScreenSpinner';
 import '@vkontakte/vkui/dist/vkui.css';
+import 'mysql2';
 
 import Home from './panels/Home';
 import Persik from './panels/Persik';
@@ -11,6 +12,7 @@ const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
+	const mysql = require("mysql2");
 
 	useEffect(() => {
 		bridge.subscribe(({ detail: { type, data }}) => {
@@ -32,7 +34,16 @@ const App = () => {
 		setActivePanel(e.currentTarget.dataset.to);
 	};
 	const perm = () => {
-		//bridge.send("VKWebAppShowWallPostBox", { "owner_id ": -183268158, "message": "Hello!"});
+
+		const connection = mysql.createConnection({
+  		host: "localhost",
+  		user: "root",
+  		database: "usersdb",
+  		password: "пароль_от_сервера"
+});
+
+
+		/*//bridge.send("VKWebAppShowWallPostBox", { "owner_id ": -183268158, "message": "Hello!"});
 		bridge.send("VKWebAppGetAuthToken", {"app_id": 7366121, "scope": "wall"});
 		bridge.subscribe(e => {
 			//alert(JSON.stringify(e));
@@ -46,7 +57,7 @@ const App = () => {
 				alert(JSON.stringify(e));
   	//}
 		//alert(JSON.stringify(e));
-	}});
+	}});*/
 }
 
 	return (
