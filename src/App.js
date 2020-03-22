@@ -44,10 +44,10 @@ const App = () => {
 
 		 connection.connect(function(err){
 		    if (err) {
-		      return console.error("Ошибка: " + err.message);
+		      return alert("Ошибка: " + err.message);
 		    }
 		    else{
-		      console.log("Подключение к серверу MySQL успешно установлено");
+		      alert("Подключение к серверу MySQL успешно установлено");
 		    }
 		 });
 
