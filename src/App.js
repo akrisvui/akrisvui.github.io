@@ -50,23 +50,6 @@ const App = () => {
 		      alert("Подключение к серверу MySQL успешно установлено");
 		    }
 		 });
-
-
-		/*//bridge.send("VKWebAppShowWallPostBox", { "owner_id ": -183268158, "message": "Hello!"});
-		bridge.send("VKWebAppGetAuthToken", {"app_id": 7366121, "scope": "wall"});
-		bridge.subscribe(e => {
-			//alert(JSON.stringify(e));
-			//alert(JSON.stringify(e));
-  		if (e.detail.type === 'VKWebAppAccessTokenReceived') {
-				//alert(JSON.stringify(e.detail.data.access_token));
-				//alert(JSON.stringify(e.detail.data.access_token));
-				bridge.send("VKWebAppCallAPIMethod", {"method": "wall.post", "params": {"owner_id": "-183268158", "message": "Привет", "v":"5.103", "access_token": e.detail.data.access_key}});
-				var userB = bridge.send('VKWebAppGetUserInfo');
-				alert(JSON.stringify(userB));
-				alert(JSON.stringify(e));
-  	//}
-		//alert(JSON.stringify(e));
-	}});*/
 }
 
 	return (
