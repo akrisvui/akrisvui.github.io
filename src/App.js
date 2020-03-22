@@ -32,7 +32,7 @@ const App = () => {
 		setActivePanel(e.currentTarget.dataset.to);
 	};
 	const perm = () => {
-			alert("Ну блин");
+			alert("Ну блин, как его там");
 }
 
 	return (
