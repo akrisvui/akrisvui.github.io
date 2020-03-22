@@ -34,22 +34,7 @@ const App = () => {
 		setActivePanel(e.currentTarget.dataset.to);
 	};
 	const perm = () => {
-
-		const connection = mysql.createConnection({
-  		host: "redactorhelp.ru",
-  		user: "u0991630_sima",
-  		database: "u0991630_redactor",
-  		password: "nasralkorol"
-});
-
-		 connection.connect(function(err){
-		    if (err) {
-		      return alert("Ошибка: " + err.message);
-		    }
-		    else{
-		      alert("Подключение к серверу MySQL успешно установлено");
-		    }
-		 });
+			alert("Ну блин");
 }
 
 	return (
