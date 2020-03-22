@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.439b4a20.chunk.css",
-    "main.js": "/static/js/main.da21b7e5.chunk.js",
-    "main.js.map": "/static/js/main.da21b7e5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fbce83fd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fbce83fd.js.map",
-    "static/css/2.733ba2d0.chunk.css": "/static/css/2.733ba2d0.chunk.css",
-    "static/js/2.f63ffa42.chunk.js": "/static/js/2.f63ffa42.chunk.js",
-    "static/js/2.f63ffa42.chunk.js.map": "/static/js/2.f63ffa42.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.043db412a367d66c372045102ce4114a.js": "/precache-manifest.043db412a367d66c372045102ce4114a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.733ba2d0.chunk.css.map": "/static/css/2.733ba2d0.chunk.css.map",
-    "static/css/main.439b4a20.chunk.css.map": "/static/css/main.439b4a20.chunk.css.map",
-    "static/js/2.f63ffa42.chunk.js.LICENSE.txt": "/static/js/2.f63ffa42.chunk.js.LICENSE.txt",
-    "static/media/persik.png": "/static/media/persik.4e1ec840.png"
+    "main.css": "/akrisvui.github.io/static/css/main.439b4a20.chunk.css",
+    "main.js": "/akrisvui.github.io/static/js/main.da21b7e5.chunk.js",
+    "main.js.map": "/akrisvui.github.io/static/js/main.da21b7e5.chunk.js.map",
+    "runtime-main.js": "/akrisvui.github.io/static/js/runtime-main.b58c4131.js",
+    "runtime-main.js.map": "/akrisvui.github.io/static/js/runtime-main.b58c4131.js.map",
+    "static/css/2.733ba2d0.chunk.css": "/akrisvui.github.io/static/css/2.733ba2d0.chunk.css",
+    "static/js/2.572e0633.chunk.js": "/akrisvui.github.io/static/js/2.572e0633.chunk.js",
+    "static/js/2.572e0633.chunk.js.map": "/akrisvui.github.io/static/js/2.572e0633.chunk.js.map",
+    "index.html": "/akrisvui.github.io/index.html",
+    "precache-manifest.a7663d196e65d5179a8b85b26a06b23c.js": "/akrisvui.github.io/precache-manifest.a7663d196e65d5179a8b85b26a06b23c.js",
+    "service-worker.js": "/akrisvui.github.io/service-worker.js",
+    "static/css/2.733ba2d0.chunk.css.map": "/akrisvui.github.io/static/css/2.733ba2d0.chunk.css.map",
+    "static/css/main.439b4a20.chunk.css.map": "/akrisvui.github.io/static/css/main.439b4a20.chunk.css.map",
+    "static/js/2.572e0633.chunk.js.LICENSE.txt": "/akrisvui.github.io/static/js/2.572e0633.chunk.js.LICENSE.txt",
+    "static/media/persik.png": "/akrisvui.github.io/static/media/persik.4e1ec840.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fbce83fd.js",
+    "static/js/runtime-main.b58c4131.js",
     "static/css/2.733ba2d0.chunk.css",
-    "static/js/2.f63ffa42.chunk.js",
+    "static/js/2.572e0633.chunk.js",
     "static/css/main.439b4a20.chunk.css",
     "static/js/main.da21b7e5.chunk.js"
   ]
