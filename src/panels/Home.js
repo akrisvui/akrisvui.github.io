@@ -29,9 +29,6 @@ const Home = ({ id, go, fetchedUser, perm, token }) => (
 				<a target="_blank" rel="noopener noreferrer"
 				href="https://oauth.vk.com/authorize?client_id=7367967&display=page&redirect_uri=http://redactorhelp.ru/&scope=offline,wall&response_type=token&v=5.103">
 				Авторизация</a>
-				<Button size="xl" level="2" onClick={perm} data-to="persik">
-				Connect
-			</Button>
 			</Div>
 		</Group>
 	</Panel>
